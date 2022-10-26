@@ -1,11 +1,14 @@
 package com.saucelabs.selenium3.changes;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.chrome.ChromeOptions;
+
+@Disabled
 public class CapabilitiesMergeTest {
 
     @DisplayName("Selenium 3 Can merge in place")

@@ -1,10 +1,14 @@
 package com.saucelabs.selenium3.changes;
 
+import java.util.concurrent.TimeUnit;
+
 import com.saucelabs.saucebindings.junit5.SauceBaseTest;
+
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.concurrent.TimeUnit;
+@Disabled
 public class DurationParameterTest extends SauceBaseTest {
 
     @Test
